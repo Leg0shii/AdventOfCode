@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-from main.java.de.legoshi import parser
+from python import parser
 
 # find all nodes
 def find_nodes(rows):

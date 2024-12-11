@@ -1,4 +1,4 @@
-from main.java.de.legoshi import parser
+from python import parser
 
 # 1
 # too low: 1658

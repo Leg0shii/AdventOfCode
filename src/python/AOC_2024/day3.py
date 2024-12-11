@@ -1,4 +1,4 @@
-from main.java.de.legoshi import parser
+from python import parser
 
 content = str(parser.get_content("3"))
 result_1 = 0

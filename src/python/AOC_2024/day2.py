@@ -1,6 +1,6 @@
 import operator
 
-from main.java.de.legoshi import parser
+from python import parser
 
 # too high
 # too high 323

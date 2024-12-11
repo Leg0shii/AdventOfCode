@@ -1,4 +1,4 @@
-from main.java.de.legoshi import parser
+from python import parser
 
 def next_step(x_, y_, status_switch_, direction_hit_map_):
     x_ += status_list[status_switch_ % 4][0]

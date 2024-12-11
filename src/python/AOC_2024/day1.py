@@ -1,6 +1,6 @@
 from functools import reduce
 
-from main.java.de.legoshi import parser
+from python import parser
 
 content = parser.get_content("1")
 

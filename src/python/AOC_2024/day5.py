@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-from main.java.de.legoshi import parser
+from python import parser
 
 # too high: 39783
 # too low: 5692

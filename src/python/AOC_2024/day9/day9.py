@@ -1,4 +1,4 @@
-from main.java.de.legoshi import parser
+from python import parser
 
 # 2333133121414131402
 def find_next(elements):

@@ -1,6 +1,6 @@
 import math
 
-from src.main.java.de.legoshi.AOC_2024 import parser
+from main.java.de.legoshi import parser
 
 def get_mask(unmasked, length):
     local_mask = []

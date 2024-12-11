@@ -1,4 +1,4 @@
-import parser
+import main.java.de.legoshi.parser as parser
 
 def get_neighbors(pos, value):
     check_list = [(0, 1), (1, 0), (0, -1), (-1, 0)]

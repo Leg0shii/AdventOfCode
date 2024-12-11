@@ -3,7 +3,7 @@ import json
 
 import requests
 
-def get_content(day):
+def get_content(day) -> str:
     cript_dir = os.path.dirname(__file__)
 
     if day == 'p':

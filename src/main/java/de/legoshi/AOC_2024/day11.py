@@ -1,4 +1,4 @@
-import parser
+import main.java.de.legoshi.parser as parser
 
 def add_to_dict(new_num, prev_num, remove=True):
     if new_num in temp_dict:

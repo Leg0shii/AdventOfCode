@@ -1,4 +1,4 @@
-from src.main.java.de.legoshi.AOC_2024 import parser
+from main.java.de.legoshi import parser
 
 content = str(parser.get_content("3"))
 result_1 = 0

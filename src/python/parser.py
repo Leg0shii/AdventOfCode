@@ -3,7 +3,7 @@ import json
 
 import requests
 
-def get_content(day) -> str:
+def get_content(day, year='2024') -> str:
     cript_dir = os.path.dirname(__file__)
 
     if day == 'p':
@@ -11,7 +11,7 @@ def get_content(day) -> str:
         f = open(practice_file_path, 'r')
         return f.read()
 
-    link = 'https://adventofcode.com/2024/day/' + day + '/input'
+    link = 'https://adventofcode.com/' + year + '/day/' + day + '/input'
 
     session_file_path = os.path.join(cript_dir, 'session_file.json')
 

@@ -1,3 +1,4 @@
+import os
 import json
 
 import requests
@@ -9,7 +10,10 @@ def get_content(day):
 
     link = "https://adventofcode.com/2024/day/" + day + "/input"
 
-    with open('session_file.json', 'r') as file:
+    cript_dir = os.path.dirname(__file__)
+    session_file_path = os.path.join(cript_dir, 'session_file.json')
+
+    with open(session_file_path, 'r') as file:
         token = json.load(file)
 
     f = requests.get(link, cookies=token)

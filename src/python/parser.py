@@ -3,7 +3,7 @@ import json
 
 import requests
 
-def get_content(day, year='2024') -> str:
+def get_content(day: str, year: str = '2025') -> str:
     cript_dir = os.path.dirname(__file__)
 
     if day == 'p':
